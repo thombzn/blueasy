@@ -1,0 +1,339 @@
+.image {
+    padding: 0px;
+    height: 100vh;
+    background-image: url('images/HERO.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    height: 20vh;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bleu {
+    color: #53EDF5;
+}
+
+ul {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.navbar ul a:hover {
+    color: white;
+    border: 2px #53EDF5 solid;
+}
+
+.titre1 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #0000005e;
+}
+
+.servicesBackground {
+    background-image: url('images/fondservices.png');
+}
+
+.container {
+    padding: 50px;
+    color: white;
+}
+
+.titre {
+    margin-bottom: 50px;
+}
+.row {
+    margin-top: 30px;
+}
+
+.separation {
+    height: 3px;
+    background-color: white;
+    width: 4%;
+}
+
+.navbarPortfolio {
+    color: black;
+}
+
+.containerPortfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titrePortfolio {
+    color: black;
+}
+
+.separationPortfolio {
+    height: 3px;
+    background-color: black;
+    width: 38%;
+}
+
+ul {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbarPortfolio ul a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.navbarPortfolio ul a:hover {
+    color: black;
+    border: 2px #53EDF5 solid;
+}
+
+.portfolioRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolioRow .col-3 {
+    margin-top: 50px;
+    height: 200px;
+    width: 20%;
+}
+
+.port1 {
+    background-image: url('../images/portfolio/1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.port2 {
+    background-image: url('../images/portfolio/2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.port3 {
+    background-image: url('../images/portfolio/3.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.port4 {
+    background-image: url('../images/portfolio/4.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.port5 {
+    background-image: url('../images/portfolio/5.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.port6 {
+    background-image: url('../images/portfolio/6.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.port7 {
+    background-image: url('../images/portfolio/7.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.port8 {
+    background-image: url('../images/portfolio/8.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.defaultSection {
+    background-color: #515F67;
+}
+
+.defaultSection .defaultSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.separationSection {
+    height: 3px;
+    background-color: white;
+    width: 10%;
+}
+
+.texts {
+    width: 40%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background: none;
+    border: 4px #353F46 solid;
+    padding: 10px;
+    width: 30%;
+    color: #353F46;
+}
+
+button:hover {
+    border: #53EDF5 solid 4px;
+    color: white;
+    transition: 1s;
+}
+
+.twitter {
+    background-color: #4BCAFF;
+}
+
+.navbarTwitter {
+    color: black;
+}
+
+.containerTwitter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titreTwitter {
+    color: white;
+}
+
+.separationTwitter {
+    height: 3px;
+    background-color: white;
+    width: 45%;
+}
+
+.twitter img {
+    width: 3%;
+    height: 3%;
+}
+
+.twitter .margin {
+    margin-top: 25px;
+}
+
+.john {
+    background-color: #8CB3D7;
+}
+
+.imagesWho {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.imagesWho img {
+    margin-right: 30px;
+}
+
+.navbarTesti {
+    color: black;
+}
+
+.containerTesti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titreTesti {
+    color: black;
+}
+
+.separationTesti {
+    height: 3px;
+    background-color: black;
+    width: 45%;
+}
+
+.testiContent {
+    color: black;
+}
+
+.containerTesti img {
+    width: 3%;
+    height: 3%;
+}
+
+.testiContent .lorem {
+    margin-top: 75px;
+}
+
+.testiContent .bleu {
+    margin-top: 20px;
+    color: #4BCAFF;
+}
+
+.contact {
+    background-color: #8CB3D7;
+}
+
+.form .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form .col-6 {
+    width: 49%;
+}
+
+.mb-3 input {
+    background-color: #8CB3D7;
+}
+
+.col-12 textarea {
+    background-color: #8CB3D7;
+}
+
+button {
+    border: none;
+    background-color: #4BCAFF;
+    color: white;
+}
+
+.footer {
+    background-color: #353F46;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContent .menu a{
+    text-decoration: none;
+    color: white;
+}
